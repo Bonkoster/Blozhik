@@ -1,0 +1,6 @@
+<h1>Hello Guis!</h1>
+<% @conte = Message.all %>
+<% @conte.each do |e| %>
+  <%= e.name %>
+  <%= e.content %>
+<%end %>
